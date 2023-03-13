@@ -31,12 +31,21 @@
   line-height: 1.5;
 }
 
-.key img {
-  float: right;
-  margin-top: -370px;
-  padding: 50px;
-  width: 350px;
-  height: 350px;
+.key{
+  width: 450px;
+  height: 250px;
+
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+
+  background-color: #484848;
+  border-radius: 100px;
+}
+
+.key img{
+  width: 400px;
 }
 
 .top{
@@ -309,6 +318,11 @@ button[name="button"].button-clicked-animation {
 .rights a {
   color: white;
   text-decoration: none;
+  transition: 0.4s;
+}
+
+.rights a:hover {
+  opacity: 0.4;
 }
 
 .footer-bottom {
